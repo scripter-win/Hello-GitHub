@@ -39,7 +39,7 @@ namespace ConsoleCSharp
             Console.WriteLine(k+"：次");
             Console.Read();
         }
-
+ 
         static void call()
         {
             c = 2;
