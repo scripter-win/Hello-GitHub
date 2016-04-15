@@ -29,11 +29,11 @@ namespace ConsoleCSharp
                     Thread cc = new Thread(call);
                     a.Start();
                     b.Start();
-                cc.Start();
-                a.Join();
+                    cc.Start();
+                    a.Join();
                     b.Join();
-                cc.Join();
-                Console.WriteLine(x);
+                    cc.Join();
+                    Console.WriteLine(x);
                     Console.WriteLine(y);
                 }
             Console.WriteLine(k+"：次");
