@@ -42,5 +42,6 @@ int main()
 {
 	calculator<int> *c = new calculator<int>();
 	cin<< *c;
+	calculator copy = *c;
 	system("pause");
 }
